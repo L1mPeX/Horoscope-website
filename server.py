@@ -1,3 +1,4 @@
+# coding UTF-8
 from bottle import route, run, view
 from datetime import datetime as dt
 from random import randint
