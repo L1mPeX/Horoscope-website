@@ -11,7 +11,6 @@ def index():
     now = dt.now()
     x = randint(0, 4)
     l = generate_prophecies()
-    print(l)
     return {
         "date": f"{now.year}-{now.month}-{now.day}",
         "predictions": l[x],
